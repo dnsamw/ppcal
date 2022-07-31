@@ -5,8 +5,6 @@ function priceCal() {
   let l = document.getElementById("like-count").value;
   let f = document.getElementById("followers-count").value;
 
-  //   console.log("likes", l);
-  //   console.log("follows", f);
   let sum = parseInt(l) + parseInt(f);
   let avg = sum / 2;
   document.getElementById("avg").innerText = avg;
