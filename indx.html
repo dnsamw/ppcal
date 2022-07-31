@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container" class="unselectable">
+      <div class="wrapper">
+        <div class="input-unit">
+          <label for="like-count">Likes</label>
+          <input type="number" id="like-count" placeholder="1000" min="1" />
+        </div>
+        <div class="input-unit">
+          <label for="followers-count">Followers</label>
+          <input
+            type="number"
+            id="followers-count"
+            placeholder="1200"
+            min="1"
+          />
+        </div>
+      </div>
+      <div class="wrapper">
+        <span id="price-dsplay">0.0</span><span>Rs</span><br />
+        <small id="avg">average</small>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

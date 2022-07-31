@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family: 'Poppins';font-size: 20px;
+}
+
+input[type=number]{
+    font-size: 1.5rem;
+    margin-right: 5vw;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0.6rem;
+    box-sizing: border-box;
+    width: 40vw;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-unit{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.wrapper{
+    margin-bottom: 1rem;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    padding: 1rem;
+    border-radius: 0.6rem;
+    width: 50vw;
+}
+
+#price-dsplay{
+    font-size: 4rem;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
