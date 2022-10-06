@@ -1,5 +1,18 @@
 document.getElementById("like-count").addEventListener("input", priceCal);
 document.getElementById("followers-count").addEventListener("input", priceCal);
+document.getElementById("discount").addEventListener("input", discountPrice);
+
+function discountPrice() {
+  const currentPrice = document.getElementById("price-dsplay")?.innerText;
+  console.log({ currentPrice });
+  const discountPercentage = document.getElementById("discount")?.value;
+  console.log({ discountPercentage });
+
+  let finalPrice = currentPrice - (currentPrice * discountPercentage) / 100;
+  console.log({ finalPrice });
+
+  document.getElementById("discount-price").innerText = finalPrice;
+}
 
 function priceCal() {
   let l = document.getElementById("like-count").value;

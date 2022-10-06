@@ -63,6 +63,11 @@ h1 {
     font-size: 4rem;
 }
 
+#discount-price{
+    font-size: 3rem;
+    color: mediumvioletred;
+}
+
 .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
